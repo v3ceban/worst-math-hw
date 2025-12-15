@@ -1,5 +1,7 @@
 # Worst ~~MATH~~ JavaScript Homework Ever
 
+<img width="1080" height="1434" alt="image" src="https://github.com/user-attachments/assets/c21fa67b-2554-4d1e-b987-78d3de99ab65" />
+
 ## Introduction
 
 It's currently 1:51 AM and I stumbled upon [this](https://www.youtube.com/watch?v=1aywN5eFOys&t=410s) YouTube video with a terrible, yet interesting
