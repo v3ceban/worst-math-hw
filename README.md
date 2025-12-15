@@ -89,3 +89,9 @@ Total linear results: 144
 Given 128 pemdas results matches the number from the video, I suspect the author only considered
 the solutions using the standard order of operations, which makes sense. The author also hints
 they followed PEMDAS first at 12:30 in the video, so that likely explains the discrepancy.
+
+### Update 2
+
+Watching the video further, the author did confirm they found 128 PEMDAS solutions. They also
+did find 144 linear solutions, which matches my results as well, all distinct from the PEMDAS ones,
+which again matches my findings.
