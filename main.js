@@ -136,10 +136,16 @@ const main = () => {
   //   ),
   // );
 
+  let pemdasCount = 0;
+  let linearCount = 0;
   console.log(`Found ${results.length} results:`);
   results.forEach((result) => {
+    if (result.method === "pemdas") pemdasCount++;
+    if (result.method === "linear") linearCount++;
     console.log(`${result.method}: [${result.permutation.join(", ")}]`);
   });
+  console.log(`\nTotal pemdas results: ${pemdasCount}`);
+  console.log(`Total linear results: ${linearCount}`);
 
   // if (identical.length > 0) {
   //   console.log("Permutations yielding correct result for both methods:");

@@ -66,8 +66,26 @@ None of them, however, worked for both methods, which is slightly disappointing.
 definitely doesn't sound like a good math homework problem to me. Though this was a fun
 computer-science exercise, I'm glad I didn't have to do this by hand back in school.
 
-## Side Note
+### Side Note
 
 Final code can be found in the `main.js` file. To run it you need to have [Node.js](https://nodejs.org/en/download/) installed on your machine.
 It does not attempt to be the most efficient solution, there is definitely room for improvement for the
 algorithm and code quality, but I'm not going to bother with that for this exercise.
+
+### Update
+
+After watching the video further, I found out that the author actually did run a computer program
+to find some solutions and the number was **128**, which is different from my **272**. To check what's
+going on, I counted how many of my solutions each function produced separately:
+
+```bash
+./main.js
+Found 272 results:
+
+Total pemdas results: 128
+Total linear results: 144
+```
+
+Given 128 pemdas results matches the number from the video, I suspect the author only considered
+the solutions using the standard order of operations, which makes sense. The author also hints
+they followed PEMDAS first at 12:30 in the video, so that likely explains the discrepancy.
